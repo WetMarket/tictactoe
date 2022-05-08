@@ -17,7 +17,7 @@ public:
     {}
 */
     board(board&copy);
-    board(int w, int c);
+    board(int w, int h);
     void show();
     void getStatus();       // Получения состояния ячейки по её координатам
     void getSize();         // Получения размера игральной доски
