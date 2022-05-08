@@ -1,21 +1,21 @@
 #include "board.h"
 
-void board::getSize(int, int){
+void board::getSize(){
 
 
 }
 
-void board::setMark(int, int){
+void board::setMark(){
 
 
 }
 
-void board::getMark(int, int){
+void board::getMark(){
 
 
 }
 
-void board::getStatus(int, int){
+void board::getStatus(){
 
 
 }
