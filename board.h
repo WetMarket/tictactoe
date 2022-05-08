@@ -16,8 +16,18 @@ public:
         height{_height}, width{_width}, empty{_empty}
     {}
 */
-    board(board&copy);
-    board(int w, int h);
+    board(int _width, int _height)      //конструктор класса
+{
+    this -> width = _width;
+    this -> height = _height;
+    grid = new int*[_width];
+    for (int i = 0; i < _width; i++)
+    {
+        grid[i] = new int[_height];
+    }
+    cout << "Конструктор " << this << endl;
+
+}   
     void show();
     void getStatus();       // Получения состояния ячейки по её координатам
     void getSize();         // Получения размера игральной доски
